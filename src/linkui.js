@@ -155,7 +155,9 @@ export default class LinkUI extends Plugin {
 		// Execute link command after clicking the "Save" button.
 		this.listenTo( formView, 'submit', () => {
 			editor.execute( 'link', formView.urlInputView.fieldView.element.value, {
+				...formView.getDecoratorSwitchesState(),
 				isExternal: {
+					mode: 'manual',
 					attributes: {
 						class: 'btn-book-activity'
 					}
