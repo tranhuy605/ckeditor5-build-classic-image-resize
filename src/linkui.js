@@ -9,7 +9,7 @@
 
 import Plugin from '@ckeditor/ckeditor5-core/src/plugin';
 import ClickObserver from '@ckeditor/ckeditor5-engine/src/view/observer/clickobserver';
-import { isLinkElement } from './utils';
+import { isLinkElement } from '@ckeditor/ckeditor5-link/src/utils';
 import ContextualBalloon from '@ckeditor/ckeditor5-ui/src/panel/balloon/contextualballoon';
 
 import clickOutsideHandler from '@ckeditor/ckeditor5-ui/src/bindings/clickoutsidehandler';
@@ -18,7 +18,7 @@ import ButtonView from '@ckeditor/ckeditor5-ui/src/button/buttonview';
 import LinkFormView from '@ckeditor/ckeditor5-link/src/ui/linkformview';
 import LinkActionsView from '@ckeditor/ckeditor5-link/src/ui/linkactionsview';
 
-import linkIcon from '../theme/icons/link.svg';
+import linkIcon from '@ckeditor/ckeditor5-link/theme/icons/link.svg';
 
 const linkKeystroke = 'Ctrl+K';
 

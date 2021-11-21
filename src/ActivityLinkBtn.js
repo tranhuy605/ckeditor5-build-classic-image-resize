@@ -1,8 +1,8 @@
 import Plugin from '@ckeditor/ckeditor5-core/src/plugin'
-import LinkEditing from "./linkediting";
+import LinkEditing from "@ckeditor/ckeditor5-link/src/linkediting";
 import LinkUI from "./linkui";
 
-export default class ActivityLinkBtn extends Plugin {
+export class ActivityLinkBtn extends Plugin {
   /**
    * @inheritDoc
    */
