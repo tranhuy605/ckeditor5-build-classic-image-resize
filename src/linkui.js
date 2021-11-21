@@ -156,10 +156,11 @@ export default class LinkUI extends Plugin {
 		this.listenTo( formView, 'submit', () => {
 			editor.execute( 'link', formView.urlInputView.fieldView.element.value, {
 				...formView.getDecoratorSwitchesState(),
-				isExternal: {
-					mode: 'manual',
-					classes : 'btn-book-activity',
-				}, } );
+				addGreenLink: {
+					mode: 'automatic',
+					classes: 'btn-book-activity'
+				}
+			} );
 			this._closeFormView();
 		} );
 
