@@ -67,5 +67,4 @@ Here: https://ckeditor.com/docs/ckeditor5/latest/framework/
 
 Not yet, but it these integrations will be available at some point in the future.
 
-
-Add button link activity to Toolbar
+Use link function
