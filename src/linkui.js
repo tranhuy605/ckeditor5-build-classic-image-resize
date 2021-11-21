@@ -158,9 +158,7 @@ export default class LinkUI extends Plugin {
 				...formView.getDecoratorSwitchesState(),
 				isExternal: {
 					mode: 'manual',
-					attributes: {
-						class: 'btn-book-activity'
-					}
+					classes : 'btn-book-activity',
 				}, } );
 			this._closeFormView();
 		} );
