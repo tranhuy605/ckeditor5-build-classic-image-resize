@@ -78,7 +78,8 @@ Editor.defaultConfig = {
 			'insertTable',
 			'mediaEmbed',
 			'undo',
-			'redo'
+			'redo',
+			'activityLinkBtn'
 		]
 	},
 	image: {
